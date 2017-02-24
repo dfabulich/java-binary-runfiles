@@ -1,7 +1,7 @@
 java_binary(
-	name='x',
+	name='y',
 	srcs=glob(['src/main/java/**']),
 	deps=['//config'],
-	main_class='X',
+	main_class='Y',
 	data=['data.txt'],
 )
